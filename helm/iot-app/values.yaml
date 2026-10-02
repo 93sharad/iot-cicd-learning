@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: ghcr.io/93sharad/iot-cicd-learning
+  tag: "dce8be81789734a9999aee8fd6a5e40fc2c46462"
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
